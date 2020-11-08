@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CursoneliopedApplication {
+public class CursoNelioPedApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CursoneliopedApplication.class, args);
+		SpringApplication.run(CursoNelioPedApplication.class, args);
 	}
 
 }
