@@ -11,24 +11,20 @@ import javax.persistence.Id;
 public class Categoria implements Serializable{
 	private static final long serialVersionUID = 1L;
 
-	//Atributos
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
 	private String nome;
 
-	//Constructor
 	public Categoria() {
 	}
 
-	//Constructor
 	public Categoria(Integer id, String nome) {
 		super();
 		this.id = id;
 		this.nome = nome;
 	}
 
-	//Gets and Sets
 	public Integer getId() {
 		return id;
 	}
